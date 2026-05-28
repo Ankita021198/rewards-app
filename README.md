@@ -25,7 +25,7 @@ Returns reward points grouped by month and customer
 2. Run application:
     mvn spring-boot:run
 3. open browser:
-   http://localhost:8080/api/reward
+   http://localhost:8080/api/rewards
 
 ## Structure:
 

@@ -10,9 +10,17 @@ import java.util.List;
 public class TransactionRepository {
     public List<Transaction> getTransactions(){
         return List.of(
-                new Transaction("Sharad",111, LocalDate.of(2026,05,25)),
-                new Transaction("Adhish",46,LocalDate.of(2025,03,23)),
-                new Transaction("Jessica",340,LocalDate.of(2024,10,23))
-        );
+        new Transaction("Amit", 120, LocalDate.of(2024, 1, 10)),
+        new Transaction("Amit", 75, LocalDate.of(2024, 2, 15)),
+
+        new Transaction("Priya", 200, LocalDate.of(2024, 3, 5)),
+        new Transaction("Priya", 65, LocalDate.of(2024, 1, 25)),
+
+        new Transaction("Rahul", 90, LocalDate.of(2024, 2, 10)),
+        new Transaction("Rahul", 130, LocalDate.of(2024, 3, 20)),
+
+        new Transaction("Neha", 40, LocalDate.of(2024, 1, 5)),
+        new Transaction("Neha", 110, LocalDate.of(2024, 2, 18))
+);
     }
 }
